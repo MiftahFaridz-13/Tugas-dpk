@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="login-container">
+    <div class="login-card">
+      <h1 class="login-title">Login</h1>
+      <div class="login-icon">🎮</div>
+      <div class="login-subtitle">Masuk Untuk Melanjutkan</div>
+      
+      <!-- Memanggil fungsi login saat form dikirim -->
+      <form onsubmit="login(event)">
+        
+        <div class="input-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" placeholder="Ivis" required>
+        </div>
+        
+        <div class="input-group">
+          <label for="password">password :</label>
+          <input type="password" id="password" placeholder="123456780" required>
+        </div>
+        
+        <button type="submit" class="login-btn">Masuk</button>
+        
+      </form>
+    </div>
+  </div>
+
+  <!-- Menghubungkan ke file JavaScript -->
+  <script>
+    function login(event) {
+  // Mencegah browser muat ulang (refresh) halaman otomatis
+  event.preventDefault(); 
+  
+  // Mengambil teks yang diketik user berdasarkan ID input
+  let usernameInput = document.getElementById("username").value;
+  let passwordInput = document.getElementById("password").value;
+  
+  // Proses pencocokan data akun (Perhatikan huruf besar/kecil)
+  if (usernameInput === "Ivis" && passwordInput === "123456780") {
+    alert("login hade");
+    window.location.href = "home.html"; // Pastikan file home.html sudah Anda buat
+  } else {
+    alert("ahh login gagal");
+  }
+}
+
+  </script>
+</body>
+</html>
