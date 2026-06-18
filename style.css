@@ -200,7 +200,7 @@ h2 {
   padding: 45px;
   border-radius: 20px;
   text-align: center;
-  border: 3px solid rgba(0, 255, 204, 0.2);
+  border: 3px solid cyan;
 }
 
 .home-box h3 {
