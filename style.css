@@ -1,4 +1,4 @@
-/* Reset dasar dan box-sizing global */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Background gradasi biru ke ungu */
+
 .login-container {
   display: flex;
   justify-content: center;
@@ -16,7 +16,7 @@
   padding: 20px;
 }
 
-/* Kartu putih utama */
+
 .login-card {
   background: rgba(30, 30, 46, 0.85);
   width: 100%;
@@ -26,7 +26,7 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-/* Judul Login */
+/*Login*/
 .login-title {
   text-align: center;
   color: white;
@@ -49,12 +49,12 @@
   color: white;
   margin-bottom: 28px;
 }
-/* Pembungkus input dan label */
+
 .input-group {
   margin-bottom: 20px;
 }
 
-/* Label teks berwarna cyan */
+
 .input-group label {
   display: block;
   color: white;
@@ -63,7 +63,6 @@
   margin-bottom: 8px;
 }
 
-/* Kolom input */
 .input-group input {
   width: 100%;
   padding: 10px 14px;
@@ -74,12 +73,12 @@
   outline: none;
 }
 
-/* Mengubah warna teks placeholder menjadi abu-abu */
+
 .input-group input::placeholder {
   color: purple;
 }
 
-/* Tombol Login bergaya minimalis */
+
 .login-btn {
   display: block;
   width: 100%;
@@ -96,7 +95,7 @@
   transition: all 0.2s ease;
 }
 
-/* Efek saat tombol ditekan atau diarahkan kursor */
+
 .login-btn:hover {
   background-position: right center; /* Menggeser warna gradasi */
   box-shadow: 0 0 25px rgba(0, 255, 204, 0.2);
@@ -194,7 +193,7 @@ h2 {
   margin-bottom: 40px;
 }
 
-/* HOME */
+
 .home-box {
   background:#2D3748;
   padding: 45px;
@@ -220,7 +219,7 @@ h2 {
   background: rgba(255, 255, 255, 0.1);
 }
 
-/* PENJELASAN */
+
 .detail-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -251,7 +250,7 @@ h2 {
   line-height: 1.5;
 }
 
-/* PROFIL - Hanya deskripsi, tanpa input form */
+
 .profil-box {
   background:#2D3748 ;
   border-radius: 24px;
@@ -297,7 +296,7 @@ h2 {
   border: 1px solid rgba(0, 255, 204, 0.3);
 }
 
-/* Footer */
+
 footer {
   background: black;
   text-align: center;
@@ -338,4 +337,4 @@ footer {
   .profil-deskripsi p {
     font-size: 15px;
   }
-}----------------*/
+}
