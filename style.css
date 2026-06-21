@@ -305,7 +305,7 @@ footer {
   margin-top: auto;
 }
 
-/* Responsif */
+
 @media (max-width: 900px) {
   .detail-wrapper {
     grid-template-columns: repeat(2, 1fr);
